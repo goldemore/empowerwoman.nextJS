@@ -16,7 +16,7 @@ const api: AxiosInstance = axios.create({
 
 // Добавляем access token к каждому запросу
 api.interceptors.request.use((config) => {
-  const token = getToken("access");
+  const token = getToken();
   if (token) {
     config.headers.Authorization = `Bearer ${token}`;
   }
@@ -31,7 +31,7 @@ api.interceptors.response.use(
       try {
         const response = await handleJWTRefresh();
         const { access } = response.data;
-        storeToken(access, "access");
+        storeToken(access);
 
         // Повторяем исходный запрос с новым токеном
         const originalRequest = error.config;

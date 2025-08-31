@@ -38,7 +38,7 @@ const ResetPasswordPage = () => {
   }
 
   try {
-    await resetPasswordConfirm(newPassword, token as string, uid as string);
+    await resetPasswordConfirm(newPassword, reNewPassword, token as string, uid as string);
     setSuccess("Password reset successfully.");
     setTimeout(() => {
       router.push("/login");

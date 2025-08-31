@@ -68,7 +68,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const fallbackDesc =
     lang === "en"
       ? "Explore open roles at Empower Woman. Join a diverse and passionate team building bold fashion."
-      : "Empower Woman-da açıq vakansiyalara baxın. Cəsarətli dəbi yaradan müxtəlif və ehtiraslı komandaya qoşulun.";
+      : "Empower Woman-da açıq vakansiyalara baxın. Cəsarətli dəbi yaradan müxtəlif və kreativli komandaya qoşulun.";
 
   // Если есть вакансии — берём первый description как основу
   const firstDesc = vacancies[0]?.description ? stripHtml(vacancies[0].description) : undefined;

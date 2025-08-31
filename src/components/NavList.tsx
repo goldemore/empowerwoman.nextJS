@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const NavList = (props: {
-  collections: { id: number; name: string; slug: string }[];
+  collections: { id: number; name: string; slug: string }[]; 
 }) => {
   
   return (

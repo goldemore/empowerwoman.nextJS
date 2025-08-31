@@ -11,6 +11,8 @@ type Props = {
 };
 
 const Navbar = async ({ collections }: Props) => {
+  console.log(collections);
+  
   return (
     <header>
       <div className="h-full">

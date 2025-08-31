@@ -212,33 +212,44 @@
     "by": "Müəllif",
     "notFound": "Yazı tapılmadı."
   },
-  "contactUS":{
+  "contactUS": {
     "title": "BİZİMLƏ ƏLAQƏ",
-  "info": {
-    "addressTitle": "Ünvan",
-    "addressLines": [
-      "Binəqədi rayonu, Ziya Bünyadov prospekti 5A",
-      "Hüquqi Ünvan: Səbail, Neftçi Qurban 50/52",
-      "VÖEN: 1703097341"
-    ],
-    "emailTitle": "Email",
-    "hoursTitle": "İş saatları",
-    "hoursValue": "B.e.–Şənbə: 09:00 – 18:00"
+    "info": {
+      "addressTitle": "Ünvan",
+      "addressLines": [
+        "Binəqədi rayonu, Ziya Bünyadov prospekti 5A",
+        "Hüquqi Ünvan: Səbail, Neftçi Qurban 50/52",
+        "VÖEN: 1703097341"
+      ],
+      "emailTitle": "Email",
+      "hoursTitle": "İş saatları",
+      "hoursValue": "B.e.–Şənbə: 09:00 – 18:00"
+    },
+    "form": {
+      "title": "Sualınız var? Bizə yazın",
+      "name": "Ad",
+      "phone": "Telefon",
+      "email": "Email",
+      "message": "Mesaj",
+      "phName": "Adınızı daxil edin",
+      "phPhone": "Telefon nömrəniz",
+      "phEmail": "Email ünvanınız",
+      "phMessage": "Mesajınız",
+      "send": "Göndər",
+      "sending": "Göndərilir...",
+      "success": "Mesaj uğurla göndərildi ✅",
+      "error": "Mesaj göndərilmədi ❌"
+    }
   },
-  "form": {
-    "title": "Sualınız var? Bizə yazın",
-    "name": "Ad",
-    "phone": "Telefon",
-    "email": "Email",
-    "message": "Mesaj",
-    "phName": "Adınızı daxil edin",
-    "phPhone": "Telefon nömrəniz",
-    "phEmail": "Email ünvanınız",
-    "phMessage": "Mesajınız",
-    "send": "Göndər",
-    "sending": "Göndərilir...",
-    "success": "Mesaj uğurla göndərildi ✅",
-    "error": "Mesaj göndərilmədi ❌"
-  }
+
+  "seo": {
+    "siteName": "Empower Woman",
+    "home": {
+      "title": "Empower Woman — Onlayn mağaza",
+      "description": "Müasir qadın geyimləri: keyfiyyət, rahatlıq və üslub. Azərbaycan brendi — paltarlar, şalvarlar, köynəklər, paltolar və daha çoxu.",
+      "keywords": "qadın geyimləri, onlayn mağaza, Azərbaycan brendi, paltar, şalvar, köynək, pəncək, dəbli geyim, qadın modası",
+      "ogImage": "/logo.png",
+      "url": "https://empowerwoman.az"
+    }
   }
 }

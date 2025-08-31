@@ -212,33 +212,43 @@
     "by": "By",
     "notFound": "Post not found."
   },
-  "contactUS":{
+  "contactUS": {
     "title": "Contact Us",
-  "info": {
-    "addressTitle": "Address",
-    "addressLines": [
-      "Binagadi district, Ziya Bunyadov ave. 5A",
-      "Legal Address: Sabail, Neftchi Qurban 50/52",
-      "TAX ID: 1703097341"
-    ],
-    "emailTitle": "Email",
-    "hoursTitle": "Working hours",
-    "hoursValue": "Mon–Sat: 09:00 – 18:00"
+    "info": {
+      "addressTitle": "Address",
+      "addressLines": [
+        "Binagadi district, Ziya Bunyadov ave. 5A",
+        "Legal Address: Sabail, Neftchi Qurban 50/52",
+        "TAX ID: 1703097341"
+      ],
+      "emailTitle": "Email",
+      "hoursTitle": "Working hours",
+      "hoursValue": "Mon–Sat: 09:00 – 18:00"
+    },
+    "form": {
+      "title": "Have a question? Write to us",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "phName": "Your name",
+      "phPhone": "Phone number",
+      "phEmail": "Your email",
+      "phMessage": "Your message",
+      "send": "Send",
+      "sending": "Sending...",
+      "success": "Message sent successfully ✅",
+      "error": "Message was not sent ❌"
+    }
   },
-  "form": {
-    "title": "Have a question? Write to us",
-    "name": "Name",
-    "phone": "Phone",
-    "email": "Email",
-    "message": "Message",
-    "phName": "Your name",
-    "phPhone": "Phone number",
-    "phEmail": "Your email",
-    "phMessage": "Your message",
-    "send": "Send",
-    "sending": "Sending...",
-    "success": "Message sent successfully ✅",
-    "error": "Message was not sent ❌"
-  }
+  "seo": {
+    "siteName": "Empower Woman",
+    "home": {
+      "title": "Empower Woman — Online Store",
+      "description": "Modern women's clothing: quality, comfort, and style. An Azerbaijani brand — dresses, trousers, blouses, jackets, and more.",
+      "keywords": "women's clothing, online store, Azerbaijani brand, dress, trousers, blouse, jacket, fashion, women's fashion",
+      "ogImage": "/logo.png",
+      "url": "https://empowerwoman.az/en"
+    }
   }
 }

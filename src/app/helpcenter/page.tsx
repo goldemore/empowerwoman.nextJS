@@ -29,7 +29,7 @@ export default function HelpCenter() {
   }, []);
 
   const toggle = (index: number) => {
-    setOpenIndex(prev => (prev === index ? null : index));
+    setOpenIndex((prev) => (prev === index ? null : index));
   };
 
   return (
@@ -57,7 +57,9 @@ export default function HelpCenter() {
             </button>
 
             <div
-              ref={el => (contentRefs.current[index] = el)}
+              ref={(el) => {
+                contentRefs.current[index] = el;
+              }}
               style={{
                 height:
                   openIndex === index

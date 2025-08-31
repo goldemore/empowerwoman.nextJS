@@ -26,6 +26,8 @@ const AccordionFilter = ({
   appliedFilters: { [key: string]: any };
   setAppliedFilters: React.Dispatch<React.SetStateAction<{ [key: string]: any }>>;
 }) => {
+
+  const {t} = useTranslation()
   const [openId, setOpenId] = useState<number | null>(null);
   const contentRefs = useRef<(HTMLDivElement | null)[]>([]);
 
@@ -75,7 +77,7 @@ const AccordionFilter = ({
     return <div className="text-red-500">Filters data is invalid.</div>;
   }
 
-  const {t} = useTranslation()
+  
 
   return (
     <>
