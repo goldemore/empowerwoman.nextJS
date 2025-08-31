@@ -59,9 +59,11 @@ const CollectionsList = ({ params }: { params: { slug: string } }) => {
     const lang = i18n.language || "az";
     if (!lang) return;
     try {
-      const baseURL = `http://127.0.0.1:8000/api/tailor/collections/${params.slug}/${lang}`;
-      let url = `${baseURL}/`;
-      const queryParams = new URLSearchParams();
+      // const baseURL = `http://127.0.0.1:8000/api/tailor/collections/${params.slug}/${lang}`;
+      let url = `${baseURL}tailor/collections/${params.slug}/${lang}`;
+      const queryParams = new URLSearchParams(); 
+      
+      
 
       if (appliedFilters.price) {
         queryParams.append("filter.v.price.gte", appliedFilters.price[0]);

@@ -2,6 +2,7 @@ import { baseURL } from "@/baseURL";
 import { cookies } from "next/headers";
 import Image from "next/image";
 
+
 // next: { revalidate: 3600 }
 // Это ISR (Incremental Static Regeneration).
 // Next.js кеширует страницу на 3600 секунд (1 час).
@@ -24,16 +25,18 @@ async function getHeroBaner(lang: string) {
 }
 
 
+
 const Hero = async () => {
   const cookieStore = cookies();
   const lang = cookieStore.get("selectedLanguage")?.value || "az";
+  
 
   const hero = await getHeroBaner(lang);
-  console.log(`${baseURL}tailor/home-page-hero/${lang}/`);
+ 
   return (
     <div className="relative w-full h-screen">
       <Image
-        src={hero[0]?.image}
+        src={hero[0]?.image  || "/empw.png"}
         alt="Hero Image"
         fill
         className="object-cover"
